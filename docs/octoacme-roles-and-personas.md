@@ -98,6 +98,14 @@ QA/Testing Leads define quality standards, create test strategies, and ensure al
 - QA status updates in weekly syncs
 - Defect reports and test case documentation
 
+### Cross-Role Interactions
+
+**With Developers**: QA/Testing Leads collaborate closely with Developers to understand implementation details, review test coverage, and work together to resolve defects. Developers provide test data and support automated testing setup; QA provides feedback on code quality and identifies edge cases.
+
+**With Product Managers**: QA/Testing Leads partner with Product Managers to clarify acceptance criteria, validate that features meet business requirements, and ensure test cases align with user stories. Product Managers define what "done" looks like; QA validates it's actually done.
+
+**With Project Managers**: QA/Testing Leads report to Project Managers on testing progress, quality metrics, and any blockers that impact release timelines. Project Managers coordinate QA resources and escalate quality issues that affect delivery schedules.
+
 ---
 
 ## Stakeholder / Sponsor
@@ -122,6 +130,14 @@ Stakeholders and Sponsors provide business context, approve initiatives, allocat
 - Monthly stakeholder updates and milestone reviews
 - Decision gate approvals (initiation, planning, release)
 - Escalation communications for high-impact risks
+
+### Cross-Role Interactions
+
+**With Developers**: Stakeholders/Sponsors interact with Developers primarily through Project Managers and Product Managers, attending demos and providing high-level feedback on delivered features. They ensure Developers understand the business value and strategic importance of their work.
+
+**With Product Managers**: Stakeholders/Sponsors work closely with Product Managers to align on business priorities, approve roadmap direction, and ensure features deliver measurable business outcomes. Product Managers provide data to support investment decisions.
+
+**With Project Managers**: Stakeholders/Sponsors rely on Project Managers for regular status updates, risk escalation, and resource allocation decisions. Project Managers inform Stakeholders when strategic changes or additional resources are needed to meet business goals.
 
 ---
 
@@ -148,6 +164,14 @@ Security and Compliance Officers ensure that projects meet security, privacy, an
 - Incident response notifications and updates
 - Compliance reporting and audit support
 
+### Cross-Role Interactions
+
+**With Developers**: Security/Compliance Officers work with Developers to establish secure coding practices, review pull requests for vulnerabilities, and provide security training. Developers integrate security controls during implementation and participate in threat modeling sessions.
+
+**With Product Managers**: Security/Compliance Officers define security and privacy acceptance criteria with Product Managers, ensuring compliance requirements are factored into feature scope and prioritization. Product Managers advocate for user privacy in feature design.
+
+**With Project Managers**: Security/Compliance Officers notify Project Managers of security-related blockers, compliance deadlines, and audit requirements. Project Managers allocate time for security reviews and ensure compliance work is included in project schedules.
+
 ---
 
 ## Technical Lead / Architect
@@ -172,6 +196,14 @@ Technical Leads and Architects provide technical vision, design guidance, and en
 - Technical design reviews and architecture discussions
 - Sprint planning and backlog refinement
 - Code reviews and technical mentoring
+
+### Cross-Role Interactions
+
+**With Developers**: Technical Leads/Architects mentor Developers on design patterns, architecture decisions, and best practices. Developers implement architectural guidance, participate in design reviews, and provide feedback on technical feasibility and implementation challenges.
+
+**With Product Managers**: Technical Leads/Architects advise Product Managers on technical feasibility, estimate technical complexity of features, and identify technical risks that impact timelines. Product Managers understand technical constraints when prioritizing the roadmap.
+
+**With Project Managers**: Technical Leads/Architects inform Project Managers of technical blockers, dependency risks, and effort estimates. Project Managers plan around technical work and escalate technical risks that threaten project schedules.
 
 ---
 
@@ -198,6 +230,14 @@ Release Managers and DevOps Engineers coordinate deployments, maintain infrastru
 - Deployment notifications and post-deploy verifications
 - Incident response and status updates
 
+### Cross-Role Interactions
+
+**With Developers**: Release Managers/DevOps Engineers work with Developers to set up CI/CD pipelines, ensure code is deployment-ready, and troubleshoot production incidents. Developers provide deployment artifacts and support incident investigation.
+
+**With Product Managers**: Release Managers/DevOps Engineers coordinate with Product Managers on release timing, feature toggles for phased rollouts, and deployment windows. Product Managers communicate business priorities for incident response and rollback decisions.
+
+**With Project Managers**: Release Managers/DevOps Engineers provide Project Managers with deployment schedules, infrastructure readiness, and incident status. Project Managers coordinate release communications and escalate infrastructure issues that impact timelines.
+
 ---
 
 ## Scrum Master / Agile Coach
@@ -223,8 +263,17 @@ Scrum Masters and Agile Coaches facilitate iterative delivery, remove impediment
 - Retrospective facilitation and action item tracking
 - Coaching and mentoring interactions
 
+### Cross-Role Interactions
+
+**With Developers**: Scrum Masters/Agile Coaches facilitate Developer ceremonies, remove technical and process blockers, and foster psychological safety. Developers provide input on process improvements and help identify impediments during standups.
+
+**With Product Managers**: Scrum Masters/Agile Coaches work with Product Managers during backlog refinement and sprint planning, ensuring the team has clarity on priorities and acceptance criteria. Product Managers participate in retrospectives to understand velocity trends and planning challenges.
+
+**With Project Managers**: Scrum Masters/Agile Coaches collaborate with Project Managers on release planning, sprint capacity planning, and risk tracking. Project Managers leverage sprint metrics and retrospective insights to inform broader project planning and resource allocation.
+
 ---
 
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+- Cross-role interactions help teams understand dependencies, communication patterns, and how to collaborate effectively across functional boundaries.
